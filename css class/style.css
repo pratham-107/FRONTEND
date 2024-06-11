@@ -1,0 +1,15 @@
+/* #parent {
+    background-color: aqua;
+    height: 80vh;
+    width: 100vh;
+} */
+
+/* #child {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+} */
+
+li {
+    font-size: 2em;
+}

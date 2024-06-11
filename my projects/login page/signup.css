@@ -1,0 +1,11 @@
+body {
+    background-color: #e0e0e0;
+    background-image: url('path/to/your/image.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* This ensures that the background image covers the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    font-family: Arial, sans-serif; /* Change the font if desired */
+}
+
+
+  
