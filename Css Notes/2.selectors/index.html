@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Types</title>
+    <link rel="stylesheet" href="select.css">
+</head>
+<body>
+    <h1>CSS Selector Types</h1>
+
+    <h2>Element Selector</h2>
+    <p>This is a paragraph styled by the element selector.</p>
+
+    <h2>Class Selector</h2>
+    <p class="highlight">This is a highlighted paragraph styled by the class selector.</p>
+
+    <h2>ID Selector</h2>
+    <p id="unique">This is a uniquely styled paragraph using the ID selector.</p>
+
+    <h2>Attribute Selector</h2>
+    <p data-info="attribute">This paragraph uses attribute selector to apply styles.</p>
+
+    <h2>Group Selector</h2>
+    <p class="group">Paragraph 1 in a group, styled by the group selector.</p>
+    <p class="group">Paragraph 2 in a group, styled by the group selector.</p>
+
+    <h2>Descendant Selector</h2>
+    <div class="descendant">
+        <p>This paragraph is inside a div, styled by the descendant selector.</p>
+        <div>
+            <p>This paragraph is inside a nested div, also styled by the descendant selector.</p>
+        </div>
+    </div>
+
+    <h2>Child Selector</h2>
+    <div class="child">
+        <p>This is a child paragraph styled by the child selector.</p>
+        <div>
+            <p>This is a nested child paragraph, but not styled by the child selector.</p>
+        </div>
+    </div>
+
+    <h2>Adjacent Sibling Selector</h2>
+    <h3>Title</h3>
+    <p>This paragraph is adjacent to the title and styled by the adjacent sibling selector.</p>
+
+    <h2>General Sibling Selector</h2>
+    <h3>Title</h3>
+    <p>This is the first sibling paragraph styled by the general sibling selector.</p>
+    <p>This is another sibling paragraph also styled by the general sibling selector.</p>
+</body>
+</html>

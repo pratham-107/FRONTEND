@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+div {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Margin on All Sides */
+.margin-all-sides p {
+    margin: 20px;
+}
+
+/* Margin on One Side */
+.margin-one-side p:nth-child(1) {
+    margin-top: 20px;
+}
+
+.margin-one-side p:nth-child(2) {
+    margin-right: 20px;
+}
+
+.margin-one-side p:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+.margin-one-side p:nth-child(4) {
+    margin-left: 20px;
+}
+
+/* Margin with Different Values */
+.margin-different-values p {
+    margin: 10px 20px 30px 40px;
+}
+
+/* Margin Auto for Centering */
+.margin-auto p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}

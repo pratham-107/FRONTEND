@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+/* Border Style Examples */
+.border-style p {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+}
+
+.border-style p:nth-child(1) {
+    border: 2px solid black;
+}
+
+.border-style p:nth-child(2) {
+    border: 2px dotted black;
+}
+
+.border-style p:nth-child(3) {
+    border: 2px dashed black;
+}
+
+.border-style p:nth-child(4) {
+    border: 2px double black;
+}
+
+.border-style p:nth-child(5) {
+    border: 2px groove black;
+}
+
+.border-style p:nth-child(6) {
+    border: 2px ridge black;
+}
+
+.border-style p:nth-child(7) {
+    border: 2px inset black;
+}
+
+.border-style p:nth-child(8) {
+    border: 2px outset black;
+}
+
+.border-style p:nth-child(9) {
+    border: 2px none;
+}
+
+.border-style p:nth-child(10) {
+    border: 2px hidden;
+}
+
+/* Border Width Examples */
+.border-width p {
+    margin: 10px 0;
+    padding: 10px;
+    border-style: solid;
+    width: 200px;
+}
+
+.border-width p:nth-child(1) {
+    border-width: thin;
+}
+
+.border-width p:nth-child(2) {
+    border-width: medium;
+}
+
+.border-width p:nth-child(3) {
+    border-width: thick;
+}
+
+/* Border Color Examples */
+.border-color p {
+    margin: 10px 0;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    width: 200px;
+}
+
+.border-color p:nth-child(1) {
+    border-color: red;
+}
+
+.border-color p:nth-child(2) {
+    border-color: green;
+}
+
+.border-color p:nth-child(3) {
+    border-color: blue;
+}
+
+.border-color p:nth-child(4) {
+    border-image: linear-gradient(to right, red, yellow, green, blue) 1;
+    border-width: 10px;
+    border-style: solid;
+}
+
+/* Border Radius Examples */
+.border-radius p {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+}
+
+.border-radius p:nth-child(1) {
+    border-radius: 0;
+}
+
+.border-radius p:nth-child(2) {
+    border-radius: 15px;
+}
+
+.border-radius p:nth-child(3) {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,23 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+div {
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+p {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+/* Padding Example */
+.padding-example p {
+    padding: 20px;  /* Applies 20px padding on all sides */
+}

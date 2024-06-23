@@ -1,0 +1,45 @@
+/* Element Selector */
+p {
+    color: blue;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+}
+
+/* ID Selector */
+#unique {
+    font-weight: bold;
+    color: red;
+}
+
+/* Attribute Selector */
+p[data-info="attribute"] {
+    font-style: italic;
+}
+
+/* Group Selector */
+.group {
+    border: 1px solid black;
+}
+
+/* Descendant Selector */
+.descendant p {
+    color: green;
+}
+
+/* Child Selector */
+.child > p {
+    font-size: 18px;
+}
+
+/* Adjacent Sibling Selector */
+h3 + p {
+    color: purple;
+}
+
+/* General Sibling Selector */
+h3 ~ p {
+    background-color: lightgray;
+}
