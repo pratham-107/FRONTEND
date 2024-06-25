@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>Example Form Using Various HTML Tags</h1>
-    
-    <form action="/submit" method="post">
+
+    <form>
         <!-- Fieldset and Legend -->
         <fieldset>
             <legend>Personal Information</legend>
@@ -51,17 +51,6 @@
         
         <!-- Button -->
         <button type="submit">Submit</button>
-        
-        <!-- Output -->
-        <p>Calculation Result: <output name="result" for="a b">0</output></p>
-        
-        <!-- Script to demonstrate output usage -->
-        <script>
-            document.querySelector('button').addEventListener('click', function(event) {
-                event.preventDefault();
-                document.querySelector('output').value = "Form submitted!";
-            });
-        </script>
     </form>
 </body>
 </html>
