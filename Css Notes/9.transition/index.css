@@ -1,0 +1,35 @@
+.parent{
+    border: 2px solid black;
+    height: 600px;
+}
+
+.parent:hover .child{
+    margin-left: 4400px;
+}
+
+.child{
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+
+#one{
+    background-color: blue;
+    transition-timing-function: linear;
+}
+#two{
+    background-color: red;
+    transition-timing-function: ease-in;
+    
+    
+}
+#three{
+    background-color: greenyellow;
+    transition-timing-function: ease-out;
+    
+}
+#four{
+    background-color: purple;
+   transition-timing-function: ease-in-out;
+    
+}
