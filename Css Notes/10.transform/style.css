@@ -1,0 +1,14 @@
+div{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    transition: 2s;
+}
+
+div:hover{
+    /* transform: translateX(200px); */
+    transform:  rotate(180deg);
+    /* transform: translate(200px,200px); */
+    /* transform: scaleY(2); */
+}
