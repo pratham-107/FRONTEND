@@ -29,7 +29,7 @@ body{
     animation-timing-function: linear;
     animation-iteration-count: infinite; */
 
-    animation: movecar 2s linear infinite;
+    animation: movecar 10s linear infinite;
 }
 
 .wheel{
