@@ -1,22 +1,22 @@
-// let data=[
-//     {
-//         id:1,
-//         name:'rahul'
-//     },
-//     {
-//         id:2,
-//         name:"modi jii"
-//     },
-//     {
-//         id:3,
-//         name:"mamta"
-//     }
-// ]
+let data=[
+    {
+        id:1,
+        name:'rahul'
+    },
+    {
+        id:2,
+        name:"modi jii"
+    },
+    {
+        id:3,
+        name:"mamta"
+    }
+]
 
-// let datafilter= Data.filter((a,b,c) =>{
-//     return a.id>1
-// })
-// console.log(a);
+let datafilter= Data.filter((a,b,c) =>{
+    return a.id>1
+})
+console.log(a);
 
 // data.map((a)=>{
 //     console.log(a);
