@@ -1,4 +1,6 @@
 // callback function //
+
+
 // function outer (a){
 //     console.log('hey!');
 //     console.log(a);
